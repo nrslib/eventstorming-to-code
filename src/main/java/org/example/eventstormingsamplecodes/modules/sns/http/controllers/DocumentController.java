@@ -5,13 +5,10 @@ import org.example.eventstormingsamplecodes.http.controllers.NotFoundException;
 import org.example.eventstormingsamplecodes.modules.sns.app.application.services.document.DocumentApplicationService;
 import org.example.eventstormingsamplecodes.modules.sns.app.domain.models.document.DocumentId;
 import org.example.eventstormingsamplecodes.modules.sns.app.domain.models.document.UserId;
-import org.example.eventstormingsamplecodes.modules.sns.app.infrastucture.persistence.document.datamodel.DocumentDataModel;
 import org.example.eventstormingsamplecodes.modules.sns.app.infrastucture.persistence.document.jpa.DocumentJpaRepository;
 import org.example.eventstormingsamplecodes.modules.sns.http.models.documents.*;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
-
-import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/documents")

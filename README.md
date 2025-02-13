@@ -12,4 +12,12 @@ This project contains sample codes for event storming using Spring Boot.
 
 ### SNS
 
-<img src="docs/images/sns.png"></img>
+<img src="docs/images/sns_traditional.png"></img>
+
+### Payment
+
+Two variations.
+
+<img src="docs/images/payment_traditional_1.png"></img>
+
+<img src="docs/images/payment_traditional_2.png"></img>
