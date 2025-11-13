@@ -1,0 +1,1 @@
+./prompt.md を参考にしながら、./docs/images/sns_traditional.pngの図を実装してください。
